@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar-container {
+    background: #084480;
+    margin: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    width: 15%;
+    margin-left: 16px;
+}
+
+.menu-container{
+    margin: 8px;
+    padding-right: 80px;
+}
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 24px;
+}
+
+.menu li:hover{
+    color: #DB614E;
+}

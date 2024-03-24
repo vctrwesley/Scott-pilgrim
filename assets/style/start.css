@@ -1,0 +1,35 @@
+.start{
+    width: 100%;
+}
+
+.start-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.img-logo{
+   width: 40%;
+}
+
+.text-start{
+    display: flex;
+    align-items: center;
+}
+
+.title-start{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.title-start:hover{
+    color: #EFD187;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.title-start img{
+    width: 18px;
+}
